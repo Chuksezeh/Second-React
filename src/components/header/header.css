@@ -1,0 +1,23 @@
+
+.header-div{
+    display: flex;
+    position: relative;
+    
+    
+}
+.nav-list{
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    left: 1000px;
+    color: white;
+    list-style-type: none;
+    
+
+}
+.free{
+    z-index: 3;
+    margin-top: 30px;
+}

@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 100%;
+    display: flex;
+}
+/* .first-div{
+    background-color: antiquewhite;
+    width: 1000px;
+    height: 929px;
+    position: relative;
+    overflow: hidden;
+    transform: skewX(30deg);
+    
+
+    
+}
+.second-div{
+    background-color: green;
+    width: 980px;
+    position: relative;
+    overflow: hidden;
+    transform: skewX(30deg);
+} */
+/* .down{
+    background-color:antiquewhite ;
+    width: 400px;
+    height: 929px;
+    margin-right: 100px;
+    position: absolute;
+    
+}
+.up-cover{
+    width: 500px;
+    background-color: green;
+    position: absolute;
+    margin-left: 1500px;
+    height: 500px;
+} */
+.container-text{
+    display: flex;
+    position: absolute;
+    gap: 50px;
+    
+    
+}
+
+.icon-div {
+   display: grid; 
+   background-color: white;
+   padding: 10px;
+   height: 150px;
+   border: solid white 1px;
+   box-shadow: 1px 1px 1px 1px;
+   border-radius: 20px;
+    
+    
+}
+.text1{
+    
+    z-index: 4px;
+    
+    
+}
+body{
+    background-image: url(./../images/cover.jpg);
+}
+.body-cover{
+    padding: 20px;
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+    margin-top: 250px;
+    position: relative;
+
+}
+.photo1{
+    width: 750px;
+    height: 780px;
+    margin-left: 850px;
+    position: absolute;
+    margin-top: 77px;
+    z-index: 2;
+    
+
+}
+.company-name{
+    margin-left: 150px;
+    color: black;
+}
+.hello-me{
+    color:rgba(18, 150, 150, 0.747) ;
+}
+.text-btn{
+width: 90px;
+height: 40px;
+background-color:rgba(18, 150, 150, 0.747) ;
+color: white;
+border: none;
+border-radius: 3px;
+}
+.second-head{
+    color:rgba(18, 150, 150, 0.747) ;
+}
